@@ -1,0 +1,80 @@
+body{
+    Background-color: white;
+}
+/* To calculate the total width, you are to add the margin left + margin right, border left + border right + 
+padding left + padding right 
+To calculate the total height, total height + border top + border bottom + padding top + padding bottom + margin
+top + margin bottom */
+.We{
+    border: 50px solid red;
+    padding: 50px;
+    margin: 10px 10px 10px 10px;
+    width: auto;
+    background-color: #ffccaa;
+    font-size: 150%;
+    text-align: center;
+    font-family: tahoma;
+    border-radius: 10%;
+}
+  .container{
+      /*By using the display option of flex the items becomes horizontally from left to right*/
+      flex-wrap: nowrap;
+      background-color: white;
+      display: flex;
+  }
+
+  .container > div{
+      /* by using the  > and div with the class it simply means it is the continuation of the styling for the class so whatsoever has been styled on 
+      on class container will remain constant and an addition will be added to the styling*/
+      width: 100px;
+      margin: 10px;
+      text-align: center;
+      font-size: 30px;
+      line-height: 70px;
+      background-color: navy;
+      color: red;
+      align-content: space-between; /* this will enable space in between the contents of the flex*/
+    
+  }
+
+.header{
+    background-color: #1c2c1c;
+    padding: 80px;
+    text-align:center;
+}
+
+.navigation{
+    font-size: large;
+    border: 5px solid pink;
+    padding: 10px 14px;
+    text-align: center;
+    float: left;
+    display: block;
+    overflow: hidden;
+    background-color:lemonchiffon;
+    align-items: center;
+}
+.twod{
+    width: 300px;
+    height: 100px;
+    background-color: orange;
+    border: 2px solid black;
+    transform: rotate X(360 deg);
+}
+
+
+
+<div class="text">
+<h1>$ 1.99</h1>
+<h6>Tacos</h6>
+</div>
+<div class="textes">
+<h1>$ 3.99</h1>
+<h6>Kombucha</h6>
+</div>s
+<div class="icon">
+<h2>Terry's Taco Joint</h2>
+</div>
+<div class="icons">
+<h4>Pretty Good Tacos!</h4><br><br>
+</div>

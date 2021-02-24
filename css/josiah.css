@@ -1,0 +1,97 @@
+body {
+  background-image: url(pink.jpg);
+  /* position: relative; */
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 80px;
+  position: relative;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.button {
+  cursor: pointer;
+  padding: 12px 68px;
+  font-size: 20px;
+  margin: 4px 8px;
+  background-color: gold;
+  border: none;
+  text-align: center;
+}
+.header,
+.headers {
+  background-color: gold;
+  display: block;
+  text-align: center;
+  font-size: 1.5vw;
+  margin-left: 850px;
+  position: relative;
+  bottom: 400px;
+  padding: 60px 0px 0px 8px;
+}
+.text,
+.texts {
+  position: relative;
+  bottom: 600px;
+  display: block;
+  background-color: gold;
+  text-align: center;
+  margin-right: 1000px;
+  margin-left: 40px;
+  font-size: 0.9vw;
+  padding: 0px 0px 0px 2px;
+}
+
+.emoji {
+  position: relative;
+  text-align: center;
+  display: inline;
+  padding: 0px 15px;
+  float: left;
+  box-sizing: border-box;
+  background-color: white;
+  border: 5px solid purple;
+  bottom: 470px;
+}
+
+.big {
+  position: relative;
+  bottom: 450px;
+}
+
+.write-up {
+  position: relative;
+  bottom: 800px;
+  text-align: center;
+}
+
+.learn {
+  background-color: gold;
+}
+
+.instant {
+  bottom: 620px;
+  position: relative;
+  text-align: center;
+}
+
+.pix {
+  position: relative;
+  bottom: 600px;
+}
+
+.pixs {
+  position: relative;
+  bottom: 570px;
+}
+.jossy {
+  height: 400px;
+  width: 820px;
+}
+
+.nma {
+  height: 500px;
+  width: 1250px;
+}
